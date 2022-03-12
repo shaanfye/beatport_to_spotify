@@ -1,0 +1,26 @@
+{
+  "name": "server_node",
+  "version": "1.0.0",
+  "description": "server that handles the chrome extensions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "html-webpack-plugin": "^5.5.0",
+    "jade": "^1.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.5",
+    "node-telegram-bot-api": "^0.56.0",
+    "spotify-web-api-node": "^5.0.2"
+  }
+}
